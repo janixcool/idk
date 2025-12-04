@@ -7,8 +7,7 @@ public class No5
 
         for(int x = 0; x < arr.length; x++){
             if(arr[x] == i){
-                System.out.println("Found! " + x);
-                break;
+                System.out.println("Found at index " + x);
             }
         }
     }
